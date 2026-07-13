@@ -159,9 +159,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .skill-grid span:hover { transform: translateY(-2px); border-color: #b8cdf6; box-shadow: 0 8px 18px rgba(41, 82, 166, .08); }
 .skill-grid b { display: inline-grid; place-items: center; min-width: 25px; height: 25px; color: var(--blue); background: var(--blue-light); border-radius: 7px; font-size: 10px; }
 .skill-grid i.colored { font-size: 20px; line-height: 1; }
-.skill-grid .skill-wordmark { padding: 10px 18px; }
-.skill-grid .skill-wordmark i.colored { font-size: 30px; }
-.skill-grid .skill-icon i.colored { font-size: 22px; }
+.skill-grid .skill-icon i.colored { font-size: 20px; }
 .bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 .info-card { padding: 28px; }
 .education-item { display: grid; grid-template-columns: 118px 1fr; align-items: center; gap: 22px; }
@@ -244,7 +242,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .experience-card ul { padding-left: 18px; font-size: 14px; }
   .large-card, .info-card { padding: 20px; }
   .skill-grid span { font-size: 12px; flex: 1 1 calc(50% - 11px); justify-content: center; }
-  .skill-grid .skill-wordmark i.colored { font-size: 24px; }
   .education-item { grid-template-columns: 1fr; }
   .edu-logo { width: 96px; height: 96px; margin: 0 auto; }
   .contact-card-content { grid-template-columns: 1fr; }
